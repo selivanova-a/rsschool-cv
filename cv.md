@@ -19,3 +19,30 @@ I started learning the basics of web development three months ago. I like it and
 * **JavaScript** 
 * **GIT** 
 * Figma, Photoshop 
+
+## Code examples
+```
+var isAnagram = function(test, original) {
+  test = test.toLowerCase().split('').sort().join('');
+  original = original.toLowerCase().split('').sort().join('');
+   
+  if (test === original) {
+    return true;
+  }
+  return false;
+}; 
+```
+#### Training projects:
+1. [Momentum](https://selivanova-a-momentum.netlify.app/) 
+2. [Shelter](https://selivanova-a-shelter.netlify.app/index.html)
+
+
+## Experience and education
+
+- Completed the FreeCodeamp.org: [Responsive Web Design](https://www.freecodecamp.org/certification/fcc5844f16c-4267-441c-b8a1-73dffb7e5b66/responsive-web-design)
+- Completed Hexlet : [HTML & CSS & JavaScript basics](https://ru.code-basics.com/)
+- In the process of studying [learn.javascript.ru](https://learn.javascript.ru/)
+
+## English language
+
+English level is *A2* or *Elementary*.
