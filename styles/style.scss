@@ -50,6 +50,10 @@
       color:white;
       margin-bottom:30px;
       padding:5px;
+
+      h1 {
+        font-size:15px;
+      }
     }
 
     .bold {
@@ -67,4 +71,114 @@
     margin-right: 28px;
   }
 }
+
+.main {
+  width:1200px;
+  margin:0 auto;
+}
+
+.summary {
+  margin:50px;
+  font-family:sans-serif;
+  color:#161b25;
+
+  &_title {
+    color: #383c45;
+    font-weight:bold;
+    margin:5px;
+    font-size:30px;
+  }
+
+  &_text {
+    margin:10px;
+  }
+}
+
+.experience {
+  display:flex;
+  justify-content:center;
+  font-family:sans-serif;
+
+  .experience_skills {
+    background:#383c45;
+    color: white;
+    padding:30px;
+
+    h2 {
+      margin:10px;
+      text-align:center;
+    }
+  }
+
+  .experience_education {
+    padding:30px;
+    background:#e7e8e9;
+    color: #282d37;
+
+    h2 {
+      text-align:center;
+      margin:10px;
+    }
+
+
+    .bold {
+      font-weight:bold;
+    }
+
+    a {
+      color:#383c45;
+      text-decoration:none;
+    }
+
+    a:hover {
+      color: #548989;
+    }
+  }
+}
+
+.example {
+  margin:50px;
+  font-family:sans-serif;
+  color:#161b25;
+
+  &_title {
+    color: #383c45;
+    font-weight:bold;
+    margin:5px;
+    font-size:30px;
+  }
+
+  &_text {
+    margin:10px;
+  }
+
+  a {
+    font-weight:bold;
+    text-decoration:none;
+    color: #383c45;
+  }
+
+  a:hover {
+    color: #009191;
+  }
+}
+
+.english {
+  margin:50px;
+  font-family:sans-serif;
+  color:#161b25;
+
+  &_title {
+    color: #383c45;
+    font-weight:bold;
+    margin:5px;
+    font-size:30px;
+  }
+
+  &_text {
+    margin:10px;
+  }
+}
+
+
 
