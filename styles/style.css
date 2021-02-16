@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #161b25;
+  width: 100%;
+}
+.header .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  background: #161b25;
+}
+
+.base_info {
+  display: flex;
+  justify-content: center;
+}
+.base_info_decoration {
+  background: #282d37;
+}
+.base_info_decoration .avatar_image {
+  width: 300px;
+  height: 400px;
+  padding: 25px 0;
+}
+.base_info_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  font-family: sans-serif;
+  color: white;
+}
+.base_info_contact span {
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+.base_info_contact .job {
+  background: #383c45;
+  opacity: 0.5;
+  color: white;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+.base_info_contact .job h1 {
+  font-size: 15px;
+}
+.base_info_contact .bold {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.social {
+  display: flex;
+  margin: 30px;
+}
+.social .social__item {
+  margin-right: 28px;
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.summary {
+  margin: 50px;
+  font-family: sans-serif;
+  color: #161b25;
+}
+.summary_title {
+  color: #383c45;
+  font-weight: bold;
+  margin: 5px;
+  font-size: 30px;
+}
+.summary_text {
+  margin: 10px;
+}
+
+.experience {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.experience .experience_skills {
+  background: #383c45;
+  color: white;
+  padding: 30px;
+}
+.experience .experience_skills h2 {
+  margin: 10px;
+  text-align: center;
+}
+.experience .experience_education {
+  padding: 30px;
+  background: #e7e8e9;
+  color: #282d37;
+}
+.experience .experience_education h2 {
+  text-align: center;
+  margin: 10px;
+}
+.experience .experience_education .bold {
+  font-weight: bold;
+}
+.experience .experience_education a {
+  color: #383c45;
+  text-decoration: none;
+}
+.experience .experience_education a:hover {
+  color: #548989;
+}
+
+.example {
+  margin: 50px;
+  font-family: sans-serif;
+  color: #161b25;
+}
+.example_title {
+  color: #383c45;
+  font-weight: bold;
+  margin: 5px;
+  font-size: 30px;
+}
+.example_text {
+  margin: 10px;
+}
+.example a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #383c45;
+}
+.example a:hover {
+  color: #009191;
+}
+
+.english {
+  margin: 50px;
+  font-family: sans-serif;
+  color: #161b25;
+}
+.english_title {
+  color: #383c45;
+  font-weight: bold;
+  margin: 5px;
+  font-size: 30px;
+}
+.english_text {
+  margin: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
