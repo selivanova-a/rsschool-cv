@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #161b25;
+  width: 100%;
+}
+.header .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  background: #161b25;
+}
+
+.base-info {
+  display: flex;
+  justify-content: center;
+}
+.base-info .decoration {
+  background: #282d37;
+}
+.base-info .decoration img {
+  width: 300px;
+  height: 400px;
+  padding: 25px 0;
+}
+.base-info .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  font-family: sans-serif;
+  color: #FFFFFF;
+}
+.base-info .contact span {
+  display: block;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 50px;
+}
+.base-info .contact .job {
+  background: #383c45;
+  opacity: 0.5;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+.base-info .contact .job h1 {
+  font-size: 15px;
+}
+.base-info .contact .communication__item {
+  margin: 5px 0;
+}
+
+.social {
+  display: flex;
+  margin: 30px;
+}
+.social__link {
+  margin-right: 28px;
+}
+.social__link i {
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.social__link i:hover {
+  color: #00b3b3;
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.article {
+  margin: 50px;
+  font-family: sans-serif;
+  color: #161b25;
+}
+.article__title {
+  color: #383c45;
+  font-weight: bold;
+  margin: 5px;
+  font-size: 30px;
+}
+.article__text {
+  margin: 10px;
+}
+.article a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #383c45;
+}
+.article a:hover {
+  color: #00b3b3;
+}
+
+.experience {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.experience .skills {
+  background: #383c45;
+  color: #FFFFFF;
+  padding: 30px;
+}
+.experience .skills h2 {
+  margin: 10px;
+  text-align: center;
+}
+.experience .education {
+  padding: 30px;
+  background: #e7e8e9;
+  color: #282d37;
+}
+.experience .education h2 {
+  text-align: center;
+  margin: 10px;
+}
+.experience .education a {
+  color: #383c45;
+  text-decoration: none;
+}
+.experience .education a:hover {
+  color: #00b3b3;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

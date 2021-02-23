@@ -1,0 +1,158 @@
+@import "constants.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: $header-background-color;
+  width:100%;
+
+  .wrapper {
+    width:1200px;
+    margin: 0 auto;
+    background: $header-background-color;
+  }
+}
+
+.base-info {
+  display:flex;
+  justify-content:center;
+
+  .decoration {
+    background: $decoration-blocks-background-color;
+
+    img {
+      width:300px;
+      height:400px;
+      padding:25px 0 ;
+    }
+  }
+
+  .contact {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:30px;
+    font-family:sans-serif;
+    color:$inner-font-color;
+
+    span {
+      display:block;
+      color:$inner-font-color;
+      font-weight:bold;
+      font-size:50px;
+    }
+
+    .job {
+      background: $job-background-color;
+      opacity:0.5;
+      color:$inner-font-color;
+      margin-bottom:30px;
+      padding:5px;
+
+      h1 {
+        font-size:15px;
+      }
+    }
+
+    .communication__item {
+      margin: 5px 0;
+    }
+  }
+}
+
+.social {
+  display:flex;
+  margin:30px;
+
+  &__link {
+    margin-right: 28px;
+
+    i {
+      font-size:30px;
+      color: $inner-font-color;
+    }
+
+    i:hover {
+      color: $link-hover-color;
+    }
+  }
+}
+
+.main {
+  width:1200px;
+  margin:0 auto;
+}
+
+.article{
+  margin:50px;
+  font-family:sans-serif;
+  color:$main-font-color;
+
+  &__title {
+    color: $link-color;
+    font-weight:bold;
+    margin:5px;
+    font-size:30px;
+  }
+
+  &__text {
+    margin:10px;
+  }
+
+  a {
+    font-weight:bold;
+    text-decoration:none;
+    color: $link-color;
+  }
+
+  a:hover {
+    color: $link-hover-color;
+  }
+}
+
+.experience {
+  display:flex;
+  justify-content:center;
+  font-family:sans-serif;
+
+  .skills {
+    background:#383c45;
+    color: $inner-font-color;
+    padding:30px;
+
+    h2 {
+      margin:10px;
+      text-align:center;
+    }
+  }
+
+  .education {
+    padding:30px;
+    background:$education-background-color;
+    color: $education-font-color;
+
+    h2 {
+      text-align:center;
+      margin:10px;
+    }
+
+    a {
+      color:$link-color;
+      text-decoration:none;
+    }
+
+    a:hover {
+      color: $link-hover-color;
+    }
+  }
+}
+
+.bold {
+  font-weight:bold;
+}
+
+
+
