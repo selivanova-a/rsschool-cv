@@ -1,53 +1,54 @@
+@import "constants.scss";
+
 * {
   margin: 0;
   padding: 0;
 }
 
-
 .header {
-  background: #161b25;
+  background: $header-background-color;
   width:100%;
 
   .wrapper {
     width:1200px;
     margin: 0 auto;
-    background: #161b25;
+    background: $header-background-color;
   }
 }
 
-.base_info {
+.base-info {
   display:flex;
   justify-content:center;
 
-  &_decoration {
-    background: #282d37;
+  .decoration {
+    background: $decoration-blocks-background-color;
 
-    .avatar_image {
+    img {
       width:300px;
       height:400px;
       padding:25px 0 ;
     }
   }
 
-  &_contact {
+  .contact {
     display:flex;
     flex-direction:column;
     justify-content:center;
     padding:30px;
     font-family:sans-serif;
-    color:white;
+    color:$inner-font-color;
 
     span {
       display:block;
-      color:white;
+      color:$inner-font-color;
       font-weight:bold;
       font-size:50px;
     }
 
     .job {
-      background: #383c45;
+      background: $job-background-color;
       opacity:0.5;
-      color:white;
+      color:$inner-font-color;
       margin-bottom:30px;
       padding:5px;
 
@@ -56,9 +57,8 @@
       }
     }
 
-    .bold {
+    .communication__item {
       margin: 5px 0;
-      font-weight:bold;
     }
   }
 }
@@ -67,8 +67,17 @@
   display:flex;
   margin:30px;
 
-  .social__item {
+  &__link {
     margin-right: 28px;
+
+    i {
+      font-size:30px;
+      color: $inner-font-color;
+    }
+
+    i:hover {
+      color: $link-hover-color;
+    }
   }
 }
 
@@ -77,20 +86,30 @@
   margin:0 auto;
 }
 
-.summary {
+.article{
   margin:50px;
   font-family:sans-serif;
-  color:#161b25;
+  color:$main-font-color;
 
-  &_title {
-    color: #383c45;
+  &__title {
+    color: $link-color;
     font-weight:bold;
     margin:5px;
     font-size:30px;
   }
 
-  &_text {
+  &__text {
     margin:10px;
+  }
+
+  a {
+    font-weight:bold;
+    text-decoration:none;
+    color: $link-color;
+  }
+
+  a:hover {
+    color: $link-hover-color;
   }
 }
 
@@ -99,9 +118,9 @@
   justify-content:center;
   font-family:sans-serif;
 
-  .experience_skills {
+  .skills {
     background:#383c45;
-    color: white;
+    color: $inner-font-color;
     padding:30px;
 
     h2 {
@@ -110,74 +129,29 @@
     }
   }
 
-  .experience_education {
+  .education {
     padding:30px;
-    background:#e7e8e9;
-    color: #282d37;
+    background:$education-background-color;
+    color: $education-font-color;
 
     h2 {
       text-align:center;
       margin:10px;
     }
 
-
-    .bold {
-      font-weight:bold;
-    }
-
     a {
-      color:#383c45;
+      color:$link-color;
       text-decoration:none;
     }
 
     a:hover {
-      color: #548989;
+      color: $link-hover-color;
     }
   }
 }
 
-.example {
-  margin:50px;
-  font-family:sans-serif;
-  color:#161b25;
-
-  &_title {
-    color: #383c45;
-    font-weight:bold;
-    margin:5px;
-    font-size:30px;
-  }
-
-  &_text {
-    margin:10px;
-  }
-
-  a {
-    font-weight:bold;
-    text-decoration:none;
-    color: #383c45;
-  }
-
-  a:hover {
-    color: #009191;
-  }
-}
-
-.english {
-  margin:50px;
-  font-family:sans-serif;
-  color:#161b25;
-
-  &_title {
-    color: #383c45;
-    font-weight:bold;
-    margin:5px;
-    font-size:30px;
-  }
-
-  &_text {
-    margin:10px;
-  }
+.bold {
+  font-weight:bold;
 }
 
 
